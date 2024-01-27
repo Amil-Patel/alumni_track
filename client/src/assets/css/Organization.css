@@ -1,0 +1,65 @@
+.org_main_form_section {
+  background-color: #f4f2ee;
+}
+.create_org_top {
+  border-top: 1px solid #1c1c1b;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 4px;
+  margin-top: 60px;
+}
+.create_org_text {
+  letter-spacing: 0.8px;
+}
+.create_org_form_section {
+  background-color: #f4f2ee;
+  padding: 10px 0px;
+}
+.create_page_btn {
+  padding: 9px 15px;
+  margin-top: 20px;
+  background-color: rgb(84, 84, 240);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: 500;
+}
+.create_page_btn:hover {
+  background-color: rgb(28, 28, 237);
+}
+.create_pass_icon {
+  left: 470px;
+}
+.add_org_desc_btn {
+  margin: 25px 15px 0px 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.acc_delete_drop {
+  padding: 6px 10px !important;
+  min-width: auto;
+  cursor: pointer;
+}
+.acc_delete_drop span:hover {
+  text-decoration: underline;
+}
+
+/* tabPanel Scroll bar */
+
+
+.MuiTabPanel-root::-webkit-scrollbar {
+  width: 7px;
+}
+
+.MuiTabPanel-root::-webkit-scrollbar-thumb {
+  background-color: #1976d2;
+  border-radius: 10px;
+}
+
+.MuiTabPanel-root::-webkit-scrollbar-thumb:hover {
+  background-color: #1960a6;
+}
+
+.MuiTabPanel-root::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}

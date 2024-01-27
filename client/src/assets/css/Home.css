@@ -1,0 +1,63 @@
+/* home page form */
+body{
+  background-color: #f6f6fb;
+}
+.home_form_main {
+  background: linear-gradient(45deg, rgb(67, 69, 140), rgb(49, 49, 184));
+  padding: 50px 0px;
+}
+.home_form_right {
+  background-image: url("../image/formImage.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+.home_form_right a {
+  position: relative;
+  top: 30px;
+}
+.form_right_side {
+  width: 61%;
+  margin: auto;
+  padding: 100px 0px;
+}
+.form_right_side p {
+  font-size: 13px;
+  line-height: 1.5rem;
+}
+.form_left_side {
+  width: 55%;
+  padding: 70px 0px;
+}
+.form_left_side h2 {
+  color: rgb(14, 221, 240);
+}
+.form_left_side p {
+  font-size: 13px;
+}
+
+/* new login form design */
+.login-container {
+  background-color: #f9f7f3;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+.login_form_image {
+  border-radius: 10px;
+  overflow: hidden;
+  background-image: url("../image/sideForm.jpg");
+}
+.login_form_main {
+  width: 70%;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px 20px;
+}
+.view-password-button {
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  top: 17px;
+  right: 20px;
+}
